@@ -3,7 +3,3 @@
 
 
 
-
-Authors:
-Manjot Lidher
-Oscar Ekahed
