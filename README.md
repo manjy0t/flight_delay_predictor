@@ -10,7 +10,7 @@ We developed a serverless machine learning pipeline for predicting flight delays
 
 ## Architecture
 
-The architecture of the machine learning pipeline follows a **serverless** structure, enabling scalability and adaptability. Each pipeline runs as a scheduled task in a serverless environment, ensuring low maintenance and flexibility. The data flows through multiple stages, from collection to model training, and finally to prediction and visualization.
+The architecture of the machine learning pipeline follows a **serverless** structure, enabling scalability and adaptability. Each pipeline runs as a scheduled task in a serverless environment, ensuring low maintenance and flexibility. The data flows through multiple stages, from collection to model training, and finally to prediction.
 
 ---
 
