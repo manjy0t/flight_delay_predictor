@@ -8,6 +8,9 @@ We developed a serverless machine learning pipeline for predicting flight delays
 
 ---
 
+## Hugging Face Link:
+https://huggingface.co/spaces/oscarekehed/airport_delay
+
 ## Architecture
 
 The architecture of the machine learning pipeline follows a **serverless** structure, enabling scalability and adaptability. Each pipeline runs as a scheduled task in a serverless environment, ensuring low maintenance and flexibility. The data flows through multiple stages, from collection to model training, and finally to prediction. Three different regression models are implemented in the pipeline, with the purpose of performance comparison and model selection. These models are: XGBoost, MLP and a Ridge Regressor. For fine-tuning, the Optuna library is used.
@@ -84,7 +87,9 @@ To make the results accessible and interactive, a **Gradio interface** is implem
 - **Plotly**: Visual library used in the GUI
 
 ## How to run the code
-The running the code requires you to have an account with Hopsworks and access to the Historical Flights API available with Zylalabs (https://zylalabs.com/api-marketplace/travel/Historical+Flights+API/2583/#info). NOTE: The Historical Flights API requires you to either subscribe for access or start a 7-day free trial with Zyla (as a free trial user you can make 500 API calls, which is more than enough to run this code). You should save your API key to both of these services in separate text files. Name them **'hopsworks-api-key.txt'** and **'zyla_key.txt'**, respectively.
+If you simply want to see the UI, follow the link near the top of the README file.
+
+Running the code requires you to have an account with Hopsworks and access to the Historical Flights API available with Zylalabs (https://zylalabs.com/api-marketplace/travel/Historical+Flights+API/2583/#info). NOTE: The Historical Flights API requires you to either subscribe for access or start a 7-day free trial with Zyla (as a free trial user you can make 500 API calls, which is more than enough to run this code). You should save your API key to both of these services in separate text files. Name them **'hopsworks-api-key.txt'** and **'zyla_key.txt'**, respectively.
 
 The notebooks are written in Google Colab, and that is the environment we recommend you to run these notebooks in as well, after downloading them here from GitHub.
 
